@@ -1,0 +1,86 @@
+.main_wrapp{
+	background-color: rgb(16,27,75);
+}
+.p0{
+	padding: 0;
+}
+
+a:hover{
+	text-decoration: none
+}
+
+
+
+.first_block_bg{
+	background-image: url(../img/tarot.png);
+	background-repeat: no-repeat;
+	background-position: right ;
+	background-size: 50%;
+}
+.description h1{
+	padding-top: 20%;
+	font-family: 'PT Serif', serif;
+	color: rgb(255,255,255);
+	font-size: 3.5em;
+}
+.main_content_block {
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255,255,255, 0.3);
+	border-radius: 2px;
+}
+.main_content_block h4 {
+	margin: 3% 0;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	font-size: 2.8em;
+	letter-spacing: 3px;	
+	color: rgb(255,255,255);
+}
+.main_content_block span {
+font-size: 0.6em;
+}
+.main_content_block img{
+	width: 10%;
+	height: auto;
+	margin:2%;
+}
+
+
+
+.second_block_bg{
+	background-image: url(../img/iching.png);
+	background-repeat: no-repeat;
+	background-position: right ;
+	background-size: 50%;
+}
+.second_description h1{
+	padding-top: 20%;
+	font-family: 'PT Serif', serif;
+	color: rgb(255,255,255);
+	font-size: 2.5em;
+}
+.second_content_block {
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255,255,255, 0.3);
+	border-radius: 2px;
+}
+.second_content_block h4 {
+	margin: 3% 0;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	font-size: 1.6em;
+	letter-spacing: 1px;	
+	color: rgb(255,255,255);
+}
+.second_content_block p{
+	padding: 0 5%;
+	font-size: 1em;
+	letter-spacing: 1px;	
+	color: rgb(255,255,255);
+}
+.third_block_bg{
+	background-image: url(../img/runes.png);
+	background-repeat: no-repeat;
+	background-position: right ;
+	background-size: 50%;
+}
