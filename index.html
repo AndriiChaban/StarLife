@@ -30,7 +30,7 @@
     <!-- DO NOT MODIFY -->
     <!-- End Facebook Pixel Code -->
 
-    <title>Bootstrap 101 Template</title>
+    <title>Starlife</title>
     
     
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
@@ -38,6 +38,9 @@
 
     <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../app/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../app/css/phone.css">
+    <link rel="stylesheet" type="text/css" href="../app/js/remodal/remodal.css">
+    <link rel="stylesheet" type="text/css" href="../app/js/remodal/remodal-default-theme.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,12 +49,95 @@
     <![endif]-->
   </head>
   <body>
-    <div class="main_wrapp">  
-      <div id="logo">
+  <div class="main_wrapp img-responsive">
+
+
+      <div id="header_wrapper">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 col-xs-12 p0">
-              <h1>StarLife</h1>
+            <div class="header col-md-12">         
+              <div class="col-md-10 col-xs-10 logo">
+                <img  src="../app/img/logo.png" alt="" />
+              </div>
+              <div class="col-md-2 col-xs-2 ">
+              <nav class="navbar navbar-default">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                  <ul class="nav_bar collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <li><a href="#modal">About Starlife</a></li>
+
+                    <div class="remodal" data-remodal-id="modal">
+                      <button data-remodal-action="close" class="remodal-close"></button>
+                      <h1>About Starlife</h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </p>
+                    </div>
+
+                    <li><a href="#modal-1">Tarot</a></li>
+
+                    <div class="remodal" data-remodal-id="modal-1">
+                      <button data-remodal-action="close" class="remodal-close"></button>
+                      <h1>About Tarot</h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </p>
+                    </div>
+
+                    <li><a href="#modal-2">I-Chaing</a></li>
+
+                    <div class="remodal" data-remodal-id="modal-2">
+                      <button data-remodal-action="close" class="remodal-close"></button>
+                      <h1>About I-Ching</h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </p>
+                    </div>
+
+                    <li><a href="#modal-3">Runes</a></li>
+
+                    <div class="remodal" data-remodal-id="modal-3">
+                      <button data-remodal-action="close" class="remodal-close"></button>
+                      <h1>About Runes</h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt .header-text-descriptionmollit anim id est laborum.
+                      </p>
+                    </div>
+
+                    <li><a href="#">Starlife on Facebook</a></li>
+                  </ul>
+                </nav>
+              </div>
+
+              <div class="col-md-12 header-text-description">
+                <h1>Get your perssonal fortune telling</h1>
+                <h4>to your mobile phone</h4>
+              </div>
+
             </div>
           </div>
         </div>
@@ -64,12 +150,12 @@
               <div class="description">
                 <h1>Ancient Tarot Cards</h1>
               </div>
-              <div class="main_content_block col-md-12 p0">
+              <a href="sms:1984?body=TAROT" class="main_content_block col-md-12 col-xs-12 p0">
                 <img class="col-md-2 p0 img-responsive" src="../app/img/phone.svg"/>
-                <h4 class="col-md-10">Send SMS <b>TAROT</b> to <b>1984</b><br/>
+                <h4 class="col-md-10 col-xs-12">Send SMS <b>TAROT</b> to <b>1984</b><br/>
                 <span>and get the forecast to your phone</span>
                 </h4>   
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -79,38 +165,104 @@
      <div id="second_block">
         <div class="container">
           <div class="row">
-            <div class="second_block_bg  col-md-6 col-xs-6 p0">
+            <div class="second_block_bg  col-md-6 col-xs-12 p0">
               <div class="second_description">
                 <h1>Oriental I Ching</h1>
               </div>
-              <div class="second_content_block col-md-12 p0">
-                <h4 class="col-md-12">Send SMS <b>I-CHING</b> to <b>1984</b></h4><br/>
+              <a href="sms:1984?body=I-CHING" class="second_content_block col-md-12 col-xs-12 p0">
+                <h4 class="col-md-12 col-xs-12">Send SMS <b>I-CHING</b> to <b>1984</b></h4><br/>
                 <p>and get the forecast to your phone</p>
-               
-              </div>
+              </a>
             </div>
 
-            <div class="third_block_bg  col-md-6 col-xs-6 p0">
-              <div class="second_description">
+            <div class="third_block_bg  col-md-6 col-xs-12 p0">
+              <div class="third_description">
                 <h1>Vikings' Runes</h1>
               </div>
-              <div class="second_content_block col-md-12 p0">
-                <h4 class="col-md-12">Send SMS <b>RUNE</b> to <b>1984</b></h4><br/>
+              <a href="sms:1984?body=RUNE" class="third_content_block col-md-12 col-xs-12 p0">
+                <h4 class="col-md-12 col-xs-12">Send SMS <b>RUNE</b> to <b>1984</b></h4><br/>
                 <p>and get the forecast to your phone</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
         
+      <div id="price_politics">
+        <div class="container">
+          <div class="row">
+            <p>The price is NOK 150,- for any service, including VAT. The service is avaliable in Norway only.</p>
+          </div>
+        </div>
+      </div>
 
 
+      <div id="footer-nav-bar">
+        <div class="container">
+          <div class="row">
 
+            <ul class="nav_bar collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <li><a href="#modal">About Starlife</a></li>
+                <div class="remodal" data-remodal-id="modal">
+                  <button data-remodal-action="close" class="remodal-close"></button>
+                  <h1>About Starlife</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+              </div>
+              <li><a href="#modal-1">Tarot</a></li>
+                <div class="remodal" data-remodal-id="modal-1">
+                  <button data-remodal-action="close" class="remodal-close"></button>
+                  <h1>About Tarot</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              <li><a href="#modal-2">I-Chaing</a></li>
+                <div class="remodal" data-remodal-id="modal-2">
+                  <button data-remodal-action="close" class="remodal-close"></button>
+                  <h1>About I-Ching</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              <li><a href="#modal-3">Runes</a></li>
+                <div class="remodal" data-remodal-id="modal-3">
+                  <button data-remodal-action="close" class="remodal-close"></button>
+                  <h1>About Runes</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              <li><a href="#">Starlife on Facebook</a></li>
+            </ul>
 
+        </div>
+      </div>
 
+  </div>
 
-
-    </div> 
+    <script type="text/javascript" sec="../app/js/jquery-3.1.0.min.js"></script>
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   
@@ -121,8 +273,8 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVTL6N"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    <!-- Fontawesom CDN script -->
-    <script src="https://use.fontawesome.com/511f171013.js"></script>
+    <!-- Remodal popup window script -->
+    <script type="text/javascript" src="../app/js/remodal/remodal.min.js"></script>
 
   </body>
 </html>
